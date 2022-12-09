@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/lv.png" type="image/x-icon">
+    <title>Bienvenido a mi Portfolio Dev</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Boton WhatsApp-->
+    <a href="https://wa.me/5493751542986?text=Hola%20Luciano%20como%20estás?%20quisiera%20más%20información%20sobre..." class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <!-- Inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>|Yisus Code|</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!--iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/luciano-villalba-dev/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yisuscode" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/Luchovilla7" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span data-aos="zoom-in">Luciano Villalba</span>, Desarrollador Web</h2>
+                <p class="descripcion">TE INVITO A EXPLORAR UN POCO SOBRE MÍ Y A LO QUE ME DEDICO. ¡CODE IS FUN! 🚀</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!--seccción sobre mí-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="assets/img/yo.png" data-aos="zoom-out" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mí</p>
+            <h2>Hola, soy <span>Luciano Villalba</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Soy un aficionado de seguir aprendiendo todo sobre desarrollo y programación web, con muchas ganas de seguir sumando experiencia en todo proyecto y oportunidad que se me presente en este maravilloso mundo del desarrollo web.</p>
+            <p>Mi impulso es poder comprender el contexto tecnológico en el que vivo y cómo desde mi lugar poder mejorarlo.</p>
+            <a href="assets/luciano-villalba-cv.pdf" target="_blank">Mi CV</a>
+        </div>
+    </section>
+    <!--mis servicios-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila" data-aos="fade-up" data-aos-duration="1500">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>Web</li>
+                    <li>Diseño</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Diseño de sitios Web, enfocado en el desarrollo de interfaces digitales con distintas herramientas como legunajes de marcados y estilos (HTML & CSS), lenguajes de programación (JAVASCRIPT), diversos Frameworks y hasta trabajos con Wordpress. </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento Web</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>Web</li>
+                    <li>Hosting</li>
+                    <li>Control funcional</li>
+                </ul>
+                <p>Junto al sitio Web se realiza el hospedaje del mismo, asegurando el espacio en línea y un Webspace para todo su contenido (IMÁGENES, VIDEOS, ETC) e información para agregar en cada actualización </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-globe"></i></span>
+                <h4>Mantenimiento Web</h4>
+                <hr>
+                <ul class="servicios">
+                    <li>Web</li>
+                    <li>Edición</li>
+                    <li>Administración</li>
+                </ul>
+                <p>Al tener el sitio Web en línea, se realiza todas las acciones preventivas o correctivas para detectar errores que estén minando su estructura, usabilidad o performance, para así evitar que se deteriore con el tiempo, administrándolo de la mejor forma.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--sección skills-->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>HTML</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>CSS</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="css"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Wordpress</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="wp"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--sección de portfolio-->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos Web</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/consultoria-financiera-MD/" target="_blank"><img src="assets/img/modo-activo-web.png" alt=""></a>
+                <div class="info">
+                    <h4>Asesoría Financiera Modo Activo</h4>
+                    <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-bootstrap"></i></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/proyecto-final-coder-dw/" target="_blank"><img src="assets/img/market-mision.png" alt=""></a>
+                <div class="info">
+                    <h4>Digital Agency Market Mision</h4>
+                    <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-sass"></i></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/agencia-digital/" target="_blank"><img src="assets/img/agencia-template.png" alt=""></a>
+                <div class="info">
+                    <h4>Digital Agency Template</h4>
+                    <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/curso-frontend-developer-practico-javascript/" target="_blank"><img src="assets/img/panchy-shop.png" alt=""></a>
+                <div class="info">
+                    <h4>Panchy Shop</h4>
+                    <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://luchovilla7.github.io/js-coder/index.html" target="_blank"><img src="assets/img/kame-house-shop.png" alt=""></a>
+                <div class="info">
+                    <h4>Kame House Shop</h4>
+                    <p><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://portafolio-react-luchovilla7.vercel.app/" target="_blank"><img src="assets/img/port-react.png" alt=""></a>
+                <div class="info">
+                    <h4>Mi portfolio en React</h4>
+                    <p><i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-react"></i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--sección de contacto-->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contáctame</h3>
+        <div class="contenedor-form">
+            <form action="assets/form/form.php" method="POST">
+                <div class="fila mitad">
+                    <input name="name" type="text" placeholder="Nombre y apellido *" class="input-mitad">
+                    <input name="email" type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input name="asunto" type="text" placeholder="Asunto..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    <!--sección de footer-->
+    <footer>
+        <p>&copy; Copyright 2022</p> 
+        <p>Design by Luciano Villalba</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/luciano-villalba-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/yisus.code" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Luchovilla7" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
