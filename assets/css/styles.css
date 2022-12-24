@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    background-color: #000;
 }
 
 /* botón de WhatsApp*/
@@ -63,9 +64,9 @@ body .whatsapp:hover {
     padding: 10px 20px;
 }
 
-#inicio .contenido header .contenido-header h1{
+#inicio .contenido header .contenido-header img{
+    width: 150px;
     text-align: center;
-    color: #0078d7;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -83,7 +84,7 @@ body .whatsapp:hover {
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover{
-    color: #0078d7;
+    color: #FFE50D;
 }
 
 #inicio .contenido header .contenido-header .redes a{
@@ -96,7 +97,7 @@ body .whatsapp:hover {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover{
-    color: #0078d7;
+    color: #FFE50D;
 }
 
 #inicio .contenido .presentacion{
@@ -118,16 +119,16 @@ body .whatsapp:hover {
     color: #fff;
 }
 
-#inicio .contenido .presentacion h2{
+#inicio .contenido .presentacion h1{
     font-size: 50px;
     margin-bottom: 25px;
     text-align: center;
     color: #fff;
 }
 
-#inicio .contenido .presentacion h2 span{
+#inicio .contenido .presentacion h1 span{
     font-size: 40px;
-    color: #0078d7;
+    color: #FFE50D;
 }
 
 #inicio .contenido .presentacion .descripcion{
@@ -152,11 +153,13 @@ body .whatsapp:hover {
 }
 
 #inicio .contenido .presentacion a:hover{
-    background-color: #0078d7;
+    background-color: #FFE50D;
+    color: #000;
+
 }
 
 #icono-nav{
-    color: #fff;
+    color: #FFE50D;
     display: none;
 }
 
@@ -166,7 +169,7 @@ body .whatsapp:hover {
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: #111135;
+    color: #f3f3f3;
     display: flex;
 }
 
@@ -179,7 +182,11 @@ body .whatsapp:hover {
     padding: 20px;
     width: 100%;
     border-radius: 20px;
-    background-color: #f3f3f3;
+    background-color: #FFE50D;
+}
+
+#sobremi .contenedor-foto img:hover{
+    transform: scale(1.2, 1.2);
 }
 
 #sobremi .sobremi{
@@ -189,9 +196,9 @@ body .whatsapp:hover {
 #sobremi .sobremi .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #FFE50D;
     text-decoration: underline;
-    text-decoration-color:#d3d3d3;
+    text-decoration-color:#FFE50D;
     text-decoration-thickness: 5px;
 }
 
@@ -203,7 +210,7 @@ body .whatsapp:hover {
 }
 
 #sobremi .sobremi h2 span{
-    color: #0078d7;
+    color: #FFE50D;
 }
 
 #sobremi .sobremi h3{
@@ -224,17 +231,17 @@ body .whatsapp:hover {
 #sobremi .sobremi a{
     display: inline-block;
     text-decoration: none;
-    color: #000;
+    color: #FFE50D;
     border-radius: 30px;
     padding: 10px 20px;
-    border: 1px solid #000;
+    border: 2px solid #FFE50D;
     margin-top: 30px;
     transition: .5s;
 }
 
 #sobremi .sobremi a:hover{
-    background-color: #0078d7;
-    color: #fff;
+    background-color: #FFE50D;
+    color: #000;
 }
 
 /*sección de servicios*/
@@ -242,7 +249,7 @@ body .whatsapp:hover {
 #servicios{
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #FFE50D;
 }
 
 #servicios .titulo-seccion{
@@ -250,7 +257,7 @@ body .whatsapp:hover {
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #111135;
     text-decoration-thickness: 5px;
 }
 
@@ -263,7 +270,8 @@ body .whatsapp:hover {
 
 #servicios .fila .servicio{
     max-width: 350px;
-    background-color: #fff;
+    color: #FFE50D;
+    background-color: #000;
     padding: 30px;
     margin: 0 5px;
     border-radius: 5px;
@@ -284,7 +292,8 @@ body .whatsapp:hover {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #d3d3d3;
+    color: #000;
+    background-color: #FFE50D;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -293,7 +302,7 @@ body .whatsapp:hover {
 #servicios .fila .servicio hr{
     width: 30%;
     margin: auto;
-    color: #000;
+    color: #FFE50D;
     margin-bottom: 25px;
 }
 
@@ -312,7 +321,7 @@ body .whatsapp:hover {
 /*sección de skills*/
 
 .contenedor-skills {
-    background: linear-gradient( #0078d7, rgba(16, 18, 33, 0.8)), url("../img/fondo-skills.jpg");
+    background: linear-gradient( #FFE50D, rgba(16, 18, 33, 0.8)), url("../img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,7 +432,7 @@ body .whatsapp:hover {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #f3f3f3;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -475,7 +484,8 @@ body .whatsapp:hover {
 /*sección de contacto*/
 #contacto {
     padding: 100px 15px;
-    background-color: #f3f3f3;
+    background-color: #FFE50D;
+    background-image: linear-gradient(180deg, #ffe50d 91%, #000000 100%);
 }
 
 #contacto .titulo-seccion {
@@ -501,7 +511,7 @@ body .whatsapp:hover {
     padding: 20px;
     border-radius: 20px;
     border: none;
-    border: 1px solid #919191;
+    border: 1px solid #000;
 }
 
 #contacto .contenedor-form .mitad input {
@@ -518,21 +528,24 @@ body .whatsapp:hover {
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #111135;
     text-decoration-thickness: 5px;
 }
 
 #contacto .btn-enviar {
     display: block;
     margin: auto;
+    background-color: #FFE50D;
+    font-weight: bold;
+    border: 2px solid #000 !important;
     cursor: pointer;
     transition: .5s;
     padding: 10px 15px !important;
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #0078d7;
-    color: #fff;
+    background-color: #000;
+    color: #FFE50D;
 }
 
 /*sección de footer*/
@@ -542,6 +555,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 30px 0;
+}
+
+footer a img {
+    width: 180px;
 }
 
 footer a {
@@ -555,7 +572,7 @@ footer a {
 /*responsive*/
 
  @media screen and (max-width: 800px) {
-            .redes {
+            #inicio .contenido header .contenido-header .redes {
                 display: none;
             }
             nav {
