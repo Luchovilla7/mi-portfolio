@@ -38,6 +38,15 @@ body .whatsapp:hover {
     transition: all 0.5s;
 }
 
+/* botón de Cafecito App*/
+
+.coffeApp {
+    position: fixed;
+    z-index: 99;
+    bottom: 25px;
+    left: 25px;
+}
+
 /*encabezado y menú*/
 
 #inicio{
@@ -572,6 +581,9 @@ footer a {
 /*responsive*/
 
  @media screen and (max-width: 800px) {
+            .coffeApp {
+                display: none;
+            }
             #inicio .contenido header .contenido-header .redes {
                 display: none;
             }
