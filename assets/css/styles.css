@@ -20,7 +20,7 @@ body .whatsapp {
     height: 60px;
     bottom: 25px;
     right: 25px;
-    padding: 4px 2px 0;
+    padding: 5px 2px 0;
     background-color: #25d366;
     color: #fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
@@ -40,11 +40,12 @@ body .whatsapp:hover {
 
 /* botón de Cafecito App*/
 
-.coffeApp {
+.coffeApp img {
+    width: 60px;
     position: fixed;
     z-index: 99;
-    bottom: 25px;
-    left: 25px;
+    bottom: 100px;
+    right: 25px;
 }
 
 /*encabezado y menú*/
@@ -654,6 +655,9 @@ footer a {
             }
             #portfolio .fila .proyecto {
                 margin: 10px auto;
+            }
+            #portfolio .fila .proyecto img {
+                filter: grayscale(0);
             }
             /* seccion CONTACTO */
             #contacto {
