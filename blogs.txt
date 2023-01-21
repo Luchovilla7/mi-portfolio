@@ -1,0 +1,126 @@
+¡Hi World! Yisus de nuevo. 
+
+Hoy quiero hablarles sobre Git y GitHub, dos herramientas que son esenciales en el desarrollo web. Pero antes de entrar en detalles, tengo una pregunta: ¿alguna vez han intentado trabajar en un proyecto de equipo sin un sistema de control de versiones? Es como tratar de construir un castillo de naipes con una mano atada a la espalda, mientras se balancea en una cuerda floja encima de un tiburón hambriento. ¡Es una locura!
+
+Git es un sistema de control de versiones que nos permite controlar los cambios en el código de manera eficiente. Es como tener una máquina del tiempo para nuestro proyecto: podemos retroceder en el tiempo y ver cómo se desarrolló el proyecto, y revertir cambios si algo sale mal. Es como tener un "deshacer" en la vida real.
+
+GitHub, por otro lado, es una plataforma en línea que utiliza Git para permitir a los desarrolladores colaborar y compartir proyectos. Es como tener un equipo de superhéroes trabajando en su proyecto: cada uno tiene sus propias habilidades y poderes, pero juntos pueden lograr cosas increíbles.
+
+En resumen, Git y GitHub son como Batman y Robin, o como las tortillas y el guacamole, no puedes tener uno sin el otro. Sin ellos, el desarrollo web sería un caos. Pero con ellos, podemos crear proyectos impresionantes con facilidad.
+
+¡Gracias por leer, y nunca subestimes el poder de un buen sistema de control de versiones!
+
+-------------------------------------------------------------------------------------------------------------
+
+¿Por qué es importante practicar crear juegos en Javascript?
+
+¡Hi World! El Yisus esta por acá.
+
+Practicar hacer juegos en JavaScript es importante por varias razones:
+
+Aprendizaje: Crear juegos en JavaScript es una forma divertida y desafiante de aprender el lenguaje. Al crear un juego, los desarrolladores deben aplicar los conceptos básicos de JavaScript, como variables, funciones y eventos, así como conceptos más avanzados como el manejo de canvas o la creación de elementos DOM.
+
+Mejora de habilidades: Crear un juego requiere una variedad de habilidades, como la lógica de programación, el diseño de interfaz de usuario y la animación. Practicar estas habilidades ayudará a los desarrolladores a mejorar su capacidad para resolver problemas y a pensar de manera creativa.
+
+Entender el desarrollo de juegos: El desarrollo de juegos es un campo en constante evolución y crecimiento. Practicar hacer juegos en JavaScript ayudará a los desarrolladores a entender las tendencias y los desafíos del campo, así como a estar al día con las últimas herramientas y tecnologías.
+
+Mejora del rendimiento: Crear juegos requiere un gran rendimiento en cuanto a velocidad y eficiencia del código, al practicar en crear juegos, se estará mejorando estos aspectos.
+
+En resumen, practicar hacer juegos en JavaScript es una forma efectiva de aprender y mejorar las habilidades en desarrollo web, además de ayudar a entender el campo del desarrollo de juegos y mejorar el rendimiento del código.
+
+¡Gracias por leer!
+
+-------------------------------------------------------------------------------------------------------------
+
+¿Por que hay desarroladores que odian Wordpress?
+
+Hay varias razones por las cuales algunos desarrolladores pueden tener una opinión negativa sobre WordPress:
+
+Limitaciones de personalización: Aunque WordPress es fácil de usar y personalizar, algunos desarrolladores sienten que las limitaciones de personalización del sistema les impiden crear proyectos únicos y personalizados.
+
+Problemas de rendimiento: A medida que un sitio WordPress crece en tamaño y complejidad, puede comenzar a tener problemas de rendimiento. Algunos desarrolladores encuentran que optimizar un sitio WordPress para mejorar el rendimiento es difícil y tedioso.
+
+Problemas de seguridad: WordPress es un sistema de gestión de contenido muy popular y, como tal, es un objetivo común para los atacantes. Algunos desarrolladores sienten que el sistema no es lo suficientemente seguro y requiere una gran cantidad de trabajo para mantenerlo a salvo.
+
+Código de calidad: Aunque wordpress es fácil de usar para la mayoría de las personas, algunos desarrolladores experimentados pueden considerar que el código no esta estructurado de manera adecuada o no es escalable y puede generar problemas a largo plazo
+
+Dependencia de plugin: Muchas funcionalidades en wordpress se manejan mediante plugin, esto puede generar problemas de compatibilidad, seguridad y rendimiento si no se manejan de manera adecuada.
+
+Es importante tener en cuenta que estas son solo algunas de las razones por las que algunos desarrolladores pueden tener una opinión negativa sobre WordPress y que no es algo generalizado, muchos desarrolladores utilizan y aprecian la plataforma por su facilidad de uso y la gran cantidad de recursos disponibles.
+
+-------------------------------------------------------------------------------------------------------------
+
+¿Por que PHP no se dejará de usar?
+
+PHP es un lenguaje de programación de código abierto que ha sido utilizado ampliamente para el desarrollo de sitios web y aplicaciones. Aunque hay otros lenguajes de programación que se han vuelto más populares en los últimos años, PHP sigue siendo una opción popular debido a varias razones:
+
+Amplia adopción: PHP ha sido utilizado durante más de 25 años y es ampliamente adoptado en todo el mundo, por lo que hay una gran cantidad de recursos y comunidades disponibles para ayudar a los desarrolladores.
+
+Integración con las bases de datos: PHP es un lenguaje de programación que se integra fácilmente con bases de datos populares como MySQL, lo que lo hace ideal para el desarrollo de aplicaciones web con un gran volumen de datos.
+
+Fácil de aprender y usar: PHP es un lenguaje de programación relativamente fácil de aprender y usar, especialmente para aquellos que ya tienen experiencia en programación.
+
+Amplia compatibilidad: PHP es compatible con una gran variedad de sistemas operativos, servidores web y servidores de bases de datos, lo que lo hace ideal para el desarrollo de aplicaciones web escalables.
+
+Amplia comunidad y recursos: PHP cuenta con una gran comunidad de desarrolladores y una gran cantidad de recursos y documentación disponibles, esto hace que sea fácil encontrar ayuda y soluciones a problemas.
+
+En resumen, PHP ha sido ampliamente adoptado durante muchos años, tiene una integración fácil con bases de datos, es fácil de aprender y usar, es compatible con una gran variedad de sistemas operativos y servidores web y cuenta con una gran comunidad de desarrolladores y recursos disponibles. Es por eso que PHP seguirá siendo un lenguaje popular en el desarrollo web.
+
+-------------------------------------------------------------------------------------------------------------
+
+LESS vs SASS
+
+Less y Sass son dos preprocesadores de CSS que se utilizan para agregar características adicionales al lenguaje CSS y mejorar la escritura y mantenimiento del código. Aunque tienen algunas similitudes, también tienen algunas diferencias importantes:
+
+Sintaxis: Less utiliza una sintaxis similar a CSS, mientras que Sass utiliza una sintaxis diferente que se basa en indentación en lugar de llaves y punto y coma. Sass también admite una sintaxis similar a SCSS.
+
+Funciones: Sass tiene una serie de funciones matemáticas y de manipulación de cadenas, mientras que Less tiene una funcionalidad más limitada.
+
+Características: Sass tiene características adicionales como mixins con parámetros, herencia de clases y anidaciones de reglas, mientras que Less tiene una funcionalidad más limitada.
+
+Comunidad: Sass tiene una comunidad más grande y una mayor cantidad de recursos y herramientas disponibles en comparación con Less.
+
+Popularidad: Sass se ha vuelto más popular en los últimos años, mientras que Less ha perdido algo de su popularidad.
+
+En resumen, Less y Sass tienen diferencias en cuanto a sintaxis, funciones y características, Sass es más popular y cuenta con una mayor cantidad de recursos y herramientas. La elección entre ellos dependerá de las necesidades y preferencias del desarrollador, yo en lo personal soy #TEAMSASS.
+
+-------------------------------------------------------------------------------------------------------------
+
+¿Jquery ha muerto?
+
+Aunque jQuery sigue siendo una librería popular utilizada en un gran número de proyectos, en los últimos años ha habido una disminución en su popularidad debido a varias razones:
+
+Mejoras en el navegador: Los navegadores modernos han mejorado significativamente en cuanto a rendimiento y soporte para características avanzadas, lo que ha reducido la necesidad de utilizar una librería adicional como jQuery para mejorar la compatibilidad entre navegadores.
+
+Mejoras en las herramientas de desarrollo: Las herramientas de desarrollo modernas, como React y Angular, proporcionan una mejor manera de crear aplicaciones web y han reducido la necesidad de utilizar una librería adicional como jQuery para el manejo del DOM.
+
+Mejoras en JavaScript: JavaScript ha evolucionado significativamente en los últimos años, con la introducción de características como las promesas y las funciones de flecha, lo que ha reducido la necesidad de utilizar una librería adicional para mejorar la sintaxis.
+
+Problemas de rendimiento: jQuery puede ser más lento que el código nativo debido a la sobrecarga adicional que introduce, especialmente en proyectos de gran envergadura.
+
+Otras alternativas: Existen otras alternativas como Vanilla JS que han surgido y ofrecen ventajas en cuanto a rendimiento y flexibilidad.
+
+-------------------------------------------------------------------------------------------------------------
+
+En una relación con Visual Studio Code 💘
+
+Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft que se ha vuelto muy popular entre los desarrolladores debido a sus características avanzadas y su compatibilidad con una variedad de lenguajes de programación. A continuación se describen algunas de las ventajas y desventajas de VS Code en comparación con otros IDEs (Entorno de Desarrollo Integrado):
+
+Ventajas:
+
+Ligero y rápido: VS Code es un editor de código ligero y rápido que no requiere muchos recursos del sistema, lo que lo hace ideal para proyectos pequeños y medianos.
+
+Personalizable: VS Code es altamente personalizable, con una gran variedad de extensiones y temas disponibles para adaptarse a las necesidades del desarrollador.
+
+Integración con Git: VS Code tiene una integración nativa con Git, lo que permite a los desarrolladores controlar fácilmente las versiones de sus proyectos.
+
+Depuración y análisis de código: VS Code tiene herramientas avanzadas de depuración y análisis de código, lo que ayuda a los desarrolladores a encontrar y corregir errores en sus proyectos.
+
+Multiplataforma: VS Code está disponible para Windows, Mac y Linux, lo que permite a los desarrolladores trabajar en cualquier sistema operativo.
+
+Desventajas:
+
+Jajaja... ¿En serio estabas esperando a que mencione alguna desventaja? si queres buscar un pero, puede ser de que no tiene todas las funciones y características de otros IDEs más robustos como Eclipse o IntelliJ ID, pero al final de todo VSC esta desarrollado con un propósito específico (aunque con ciertas extensiones/plugins podes ampliar sus funcionalidades). Amor eterno a Visual Studio Code.
+
+¡Gracias por leer!
+
