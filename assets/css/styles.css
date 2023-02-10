@@ -51,7 +51,7 @@ body .whatsapp:hover {
 /*encabezado y menú*/
 
 #inicio{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/fondo-px.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/hb.gif");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -309,10 +309,10 @@ body .whatsapp:hover {
     border-radius: 50%;
     color: #000;
     background-color: #FFE50D;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 25px;
+    font-size: 32px;
 }
-
 
 #servicios .fila .servicio hr{
     width: 30%;
@@ -321,16 +321,14 @@ body .whatsapp:hover {
     margin-bottom: 25px;
 }
 
-#servicios .fila .servicio ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
 #servicios .fila .servicio p{
     font-size: 14px;
     line-height: 22px;
+}
+
+#servicios .servicio a {
+    color: #FFE50D;
+    text-decoration: none;
 }
 
 /*sección de skills*/
@@ -573,7 +571,7 @@ footer {
 }
 
 footer a img {
-    width: 180px;
+    width: 70px;
 }
 
 footer a {
